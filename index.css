@@ -116,6 +116,36 @@ img {
 }
 
 /* --------------------------------------- */
+/* ----- Skills ----- */
+/* --------------------------------------- */
+
+.skills__content {
+    max-width: var(--container-normal-width);
+}
+
+.skills__category {
+    margin-bottom: var(--gutter-medium);
+}
+
+.skills__category h3 {
+    font-size: var(--font-size-medium);
+    margin-bottom: var(--gutter-small);
+    color: var(--pink);
+}
+
+.skills__category p {
+    font-size: var(--font-size-normal);
+    line-height: var(--line-height-normal);
+    color: var(--white-1);
+}
+
+@media(max-width: 900px) {
+    .skills__category {
+        margin-bottom: var(--gutter-normal);
+    }
+}
+
+/* --------------------------------------- */
 /* ----- Headlines and Paragraphs ----- */
 /* --------------------------------------- */
 
